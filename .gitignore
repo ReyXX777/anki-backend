@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Dependency directories
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Logs & Debugging
+*.log
+logs/
+debug.log
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+
+# Docker
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+*.tar
+*.img
+
+# Python cache
+*.cache/
+*.pytest_cache/
+
+# Ignore compiled Python files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Ignore temporary files
+tmp/
+temp/
