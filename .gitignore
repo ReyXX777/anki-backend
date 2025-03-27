@@ -1,56 +1,65 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / cached files
 __pycache__/
 *.py[cod]
-*.so
-*.dll
-*.dylib
+*.swp
+*.swo
+*.DS_Store
 
 # Virtual environment
 venv/
-env/
+.env
 .venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Dependency directories
-pip-wheel-metadata/
-*.egg-info/
-dist/
-build/
-
-# Logs & Debugging
-*.log
-logs/
-debug.log
-
-# IDE / Editor specific
+# IDE / Editor files
 .vscode/
 .idea/
-*.swp
-*.swo
-*.swn
-*.bak
+*.iml
 
-# OS-specific files
-.DS_Store
-Thumbs.db
+# Log files
+logs/
+*.log
 
+# Anki database & user data
+collection.anki2
+collection.media/
+collection.anki2-journal
+backups/
+addons21/
+prefs21.db
+*.apkg
+*.colpkg
 
-
-# Docker
-docker-compose.yml
+# Docker & Railway-related
 docker-compose.override.yml
-.dockerignore
+Dockerfile*
+*.dockerfile
 *.tar
 *.img
+*.bin
+*.dmg
 
-# Python cache
-*.cache/
-*.pytest_cache/
+# Railway-specific
+Railway.toml
+railway.json
+deploy/
 
-# Ignore compiled Python files
-**/__pycache__/
-**/*.pyc
-**/*.pyo
+# Large files / archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.sql
+*.sqlite3
 
-# Ignore temporary files
-tmp/
-temp/
+# Ignore test coverage reports
+.coverage
+htmlcov/
+
+# Ignore compiled Python packages
+dist/
+build/
+*.egg-info/
